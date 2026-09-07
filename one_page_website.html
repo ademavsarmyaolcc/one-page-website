@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust | One-Page Travel Guide</title>
+</head>
+<body>
+  <header id="home">
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a> |
+      <a href="#gallery">Gallery</a> |
+      <a href="#video">Video</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <h1>Wanderlust: Discover Your Next Adventure</h1>
+    <p>Travel opens our minds, connects us with new cultures, and creates memories that last a lifetime. Explore inspiring destinations and start planning your next journey.</p>
+  </header>
+
+  <main>
+    <section id="gallery">
+      <h2>Travel Gallery</h2>
+      <p>Here are a few beautiful places to add to your travel list.</p>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="A peaceful mountain landscape" width="900" height="600">
+        <figcaption>Find peace in the mountains.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1507526950207-2ec7f5d3b2a9?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Turquoise ocean beside a sandy beach" width="900" height="600">
+        <figcaption>Relax beside the ocean.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="A city skyline at sunset" width="900" height="600">
+        <figcaption>Experience the energy of a new city.</figcaption>
+      </figure>
+    </section>
+
+    <section id="video">
+      <h2>Travel Inspiration</h2>
+      <p>Watch this video for inspiration before your next adventure.</p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Scxs7L0vhZ4"
+        title="Travel inspiration video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have a destination recommendation? Send us a message.</p>
+
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="destination">Favorite destination:</label><br>
+          <input type="text" id="destination" name="destination">
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+        </p>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Wanderlust Travel Guide. Created for an HTML learning project.</p>
+    <p><a href="#home">Back to top</a></p>
+  </footer>
+</body>
+</html>
